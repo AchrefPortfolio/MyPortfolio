@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Designer Graphique</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <h1 class="title">Welcome To My Portfolio</h1>
+        <p class="subtitle">Crafting Stunning Designs That Tell Your Story.</p>
+        <a href="#portfolio" class="liquid-btn1">
+            <span>See My Worke</span>
+        </a>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="section">
+    <div class="container">
+        <h2 class="section-title">About me</h2>
+        <div class="about-content">
+            <p class="about-text">My name is Achref,  <br>I am a passionate graphic designer, specialized in the creation of attractive posters, logos and visuals. With more than 5 years of experience, I put my expertise at the service of your brand for designs that captivate and inspire.</p>
+            <div class="about-skills">
+                <h3>My skills</h3>
+                <ul class="skills-list">
+                    <li>Logo Design</li>
+                    <li>Posters</li>
+                    <li>Flyers</li>
+                    <li>Business Cards</li>
+                    <li>Social Media Posts</li>
+                    <li>T-Shirt & Other Clothing</li>
+                    <li>Custom Graphics</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <div class="gallery">
+                <div class="gallery-item"><img src="air force.png" alt="Air Force"></div>
+                <div class="gallery-item"><img src="fresh juice.jpg" alt="Fresh Juice"></div>
+                <div class="gallery-item"><img src="donuts.jpg" alt="Donuts"></div>
+                <div class="gallery-item"><img src="apple juice.jpg" alt="Apple Juice"></div>
+                <div class="gallery-item"><img src="bac2k25 eco.jpg" alt="Bac 2025 Eco"></div>
+                <div class="gallery-item"><img src="charles leclerc.jpg" alt="Charles Leclerc"></div>
+                <div class="gallery-item"><img src="chocotom.jpg" alt="Chocotom"></div>
+                <div class="gallery-item"><img src="HERMAS BAG.jpg" alt="Hermas Bag"></div>
+                <div class="gallery-item"><img src="Le male.jpg" alt="Le Male"></div>
+                <div class="gallery-item"><img src="logo shopping rihem.jpg" alt="Logo Shopping Rihem"></div>
+                <div class="gallery-item"><img src="orange juice.jpg" alt="Orange Juice"></div>
+                <div class="gallery-item"><img src="resto menu.png" alt="Resto Menu"></div>
+                <div class="gallery-item"><img src="sicam.jpg" alt="Sicam"></div>
+                <div class="gallery-item"><img src="Travisis.png" alt="Travisis"></div>
+                
+                <div class="gallery-item"><img src="barca real.jpg" alt="Travisis"></div>
+                <div class="gallery-item"><img src="messi.jpg" alt="Travisis"></div>
+                <div class="gallery-item"><img src="peaky blinders.jpg" alt="Travisis"></div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Container -->
+    <div id="lightbox">
+        <span id="close-lightbox">&times;</span>
+        <img id="lightbox-img" src="" alt="Full-size image">
+    </div>
+<!-- Contact Section -->
+<section id="contact" class="section">
+    <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Let's Work Together</h3>
+                <p>If you have a project in mind or just want to say hello, feel free to reach out. I’d love to hear from you!</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/achref__101/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/achref-bouzidi-976937357/"target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="liquid-btn">
+                    <span>Send Message</span>
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+    <!-- Footer -->
+    <footer>
+            <p>&copy; <span id="year"></span> AchrefBouzidi Copier-Rights</p>
+            
+        </div>
+    </footer>
+</body>
+</html>
